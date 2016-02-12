@@ -70,13 +70,15 @@ var MEME_SETTINGS = {
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/logo-owh-white.png',
+  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/white-o-logo.png',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-    {text: 'OWH logo white1', value: 'source/images/logo-owh-white.png', data: ''},
+    {text: 'White O logo', value: 'source/images/white-o-logo.png', data: ''},
+    {text: 'Black O logo', value: 'source/images/black-o-logo.png', data: ''},
+    {text: 'OWH logo white', value: 'source/images/logo-owh-white.png', data: ''},
     {text: 'OWH logo black', value: 'source/images/logo-owh-black.png', data: ''}
   ],
 
