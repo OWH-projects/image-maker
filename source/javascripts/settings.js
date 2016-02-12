@@ -9,22 +9,11 @@ var MEME_SETTINGS = {
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
   fontFamilyOpts: [{
-<<<<<<< HEAD
     text: 'Oswald',
     value: 'Oswald'
   }, {
     text: 'Georgia',
     value: 'Georgia'
-=======
-    text: 'Oswald - statesman.com',
-    value: 'Oswald'
-  }, {
-    text: 'Georgia - politifact.com',
-    value: 'Georgia'
-  }, {
-    text: 'Ubuntu - hookem.com',
-    value: 'Ubuntu'
->>>>>>> f63da0ebb019633840ae75e5629dc850f754917f
   }],
 
   // Font size of main headline:
@@ -81,36 +70,14 @@ var MEME_SETTINGS = {
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
-<<<<<<< HEAD
   watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/logo-owh-white.png',
-=======
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/statesman.png',
->>>>>>> f63da0ebb019633840ae75e5629dc850f754917f
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-<<<<<<< HEAD
-    {text: 'OWH logo white', value: 'source/images/logo-owh-white.png', data: ''},
+    {text: 'OWH logo white1', value: 'source/images/logo-owh-white.png', data: ''},
     {text: 'OWH logo black', value: 'source/images/logo-owh-black.png', data: ''}
-=======
-    {text: 'Statesman', value: 'source/images/statesman.png', data: ''},
-    {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
-    {text: 'Hookem.com (white)', value: 'source/images/hookem.png', data: ''},
-    {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
-    {text: 'Austin360', value: 'source/images/austin360.png', data: ''},
-    {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
-    {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
-    {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
-    {text: 'PolitiFact Texas (white)', value: 'source/images/politifact-white.png', data: ''},
-    {text: 'Bastrop Advertiser', value: 'source/images/bastrop.png', data: ''},
-    {text: 'Lake Travis View', value: 'source/images/laketravis.png', data: ''},
-    {text: 'Pflugerville Pflag', value: 'source/images/pflugerville.png', data: ''},
-    {text: 'Round Rock Leader', value: 'source/images/roundrock.png', data: ''},
-    {text: 'Smithville Times', value: 'source/images/smithville.png', data: ''},
-    {text: 'Westlake Picayune', value: 'source/images/westlake.png', data: ''}
->>>>>>> f63da0ebb019633840ae75e5629dc850f754917f
   ],
 
   width: 755 // Canvas rendering width.
