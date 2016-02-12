@@ -5,12 +5,12 @@ var MEME_SETTINGS = {
 
   // Universal font family for texts:
   // Note that you'll need to included quoted font names as you would in CSS, ie: '"Knockout 28 B"'.
-  fontFamily: 'Oswald',
+  fontFamily: 'Roboto',
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
   fontFamilyOpts: [{
-    text: 'Oswald',
-    value: 'Oswald'
+    text: 'Roboto',
+    value: 'Roboto'
   }, {
     text: 'Georgia',
     value: 'Georgia'
