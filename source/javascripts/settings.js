@@ -28,7 +28,7 @@ var MEME_SETTINGS = {
   fontColor: '#fff',
   fontColorOpts: ['#fff', '#333', '#000'],
 
-  headlineText: 'Write your own headline', // Default headline text.
+  headlineText: '(Optional headline)', // Default headline text.
   height: 378, // Canvas rendering height.
   imageScale: 1, // Background image scale.
   imageSrc: '', // Default background image path. MUST reside on host domain, or use base64 data.
@@ -66,7 +66,7 @@ var MEME_SETTINGS = {
 
   textShadow: true, // Text shadow toggle.
   textShadowEdit: true, // Toggles text shadow control within the editor.
-  watermarkAlpha: 1, // Opacity of watermark image.
+  watermarkAlpha: 0.5, // Opacity of watermark image.
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
