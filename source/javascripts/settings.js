@@ -66,7 +66,7 @@ var MEME_SETTINGS = {
 
   textShadow: true, // Text shadow toggle.
   textShadowEdit: true, // Toggles text shadow control within the editor.
-  watermarkAlpha: 0.5, // Opacity of watermark image.
+  watermarkAlpha: 1, // Opacity of watermark image.
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
