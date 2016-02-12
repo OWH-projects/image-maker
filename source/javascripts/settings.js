@@ -79,7 +79,8 @@ var MEME_SETTINGS = {
     {text: 'White O logo', value: 'source/images/white-o-logo.png', data: ''},
     {text: 'Black O logo', value: 'source/images/black-o-logo.png', data: ''},
     {text: 'OWH logo white', value: 'source/images/logo-owh-white.png', data: ''},
-    {text: 'OWH logo black', value: 'source/images/logo-owh-black.png', data: ''}
+    {text: 'OWH logo black', value: 'source/images/logo-owh-black.png', data: ''},
+    {text: 'TBL', value: 'source/images/tbl.png', data: ''}
   ],
 
   width: 755 // Canvas rendering width.
