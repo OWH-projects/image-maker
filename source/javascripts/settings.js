@@ -28,7 +28,7 @@ var MEME_SETTINGS = {
   fontColor: '#fff',
   fontColorOpts: ['#fff', '#333', '#000'],
 
-  headlineText: '(Optional headline)', // Default headline text.
+  headlineText: 'Optional headline', // Default headline text.
   height: 378, // Canvas rendering height.
   imageScale: 1, // Background image scale.
   imageSrc: '', // Default background image path. MUST reside on host domain, or use base64 data.
